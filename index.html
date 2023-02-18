@@ -1,45 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EDIT HOMEPAGE MARTER</title>
-  <link rel="icon" href="images/devchallenges.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDIT HOMEPAGE MARTER</title>
+    <link rel="icon" href="images/devchallenges.png" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <nav class="navbar flex max-width margin-auto">
-    <div>
-      <p class="nav-logo">Edit</p>
-    </div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar flex max-width margin-auto">
+      <div>
+        <p class="nav-logo">Edit</p>
+      </div>
 
-    <button class="mobile-nav-toggle" aria-controls="navbar-nav" aria-expanded="false"><span class="sr-only">Menu</span></button>
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="navbar-nav"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Menu</span>
+      </button>
 
-    <ul data-visible="false" id="navbar-nav" class="navbar-nav flex">
-      <li class="nav-item">
-        <a class="nav-link" href="">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="">Service</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="">Our Works</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="">Clints</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="">Contact</a>
-      </li>
-    </ul>
-  </nav>
+      <ul data-visible="false" id="navbar-nav" class="navbar-nav flex">
+        <li class="nav-item">
+          <a class="nav-link" href="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Our Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Clints</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
-  <script src="nav.js" defer></script>
-</body>
+    <!-- top main section -->
+    <main class="max-width margin-auto top-main">
+      <article class="max-width-2 margin-auto">
+        <p class="p-link">Unhappy with your website?</p>
+        <h2 class="hero-text">We create beautiful and fast web services</h2>
+      </article>
+      <picture>
+        <img class="hero-image" src="images\heroImage.jpg" alt="hero image" />
+      </picture>
+      <article class="max-width-2 margin-auto">
+        <h2 class="hero-text">Story, emotion and purpose</h2>
+        <p class="paragraph">
+          We help transform your ideas into real world applications that will
+          outperform your toughest competition and help you achieve your
+          strategic goals in short period of time.
+        </p>
+        <p class="contact-hero paragraph">Want us to contact you?</p>
+        <input class="e-input" type="email" placeholder="Email" />
+      </article>
+    </main>
+
+    <script src="nav.js" defer></script>
+  </body>
 </html>
