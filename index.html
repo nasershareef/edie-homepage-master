@@ -26,58 +26,60 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar flex max-width margin-auto">
-      <div>
-        <p class="nav-logo">Edit</p>
-      </div>
+    <header>
+      <nav class="navbar flex max-width margin-auto">
+        <div>
+          <p class="nav-logo">Edit</p>
+        </div>
 
-      <button
-        class="mobile-nav-toggle"
-        aria-controls="navbar-nav"
-        aria-expanded="false"
-      >
-        <span class="sr-only">Menu</span>
-      </button>
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="navbar-nav"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Menu</span>
+        </button>
 
-      <ul data-visible="false" id="navbar-nav" class="navbar-nav flex">
-        <li class="nav-item">
-          <a class="nav-link" href="">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Service</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Our Works</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Clints</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Contact</a>
-        </li>
-      </ul>
-    </nav>
+        <ul data-visible="false" id="navbar-nav" class="navbar-nav flex">
+          <li class="nav-item">
+            <a class="nav-link" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Our Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Clints</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-    <!-- top main section -->
-    <main class="max-width margin-auto top-main">
-      <article class="max-width-2 margin-auto">
-        <p class="p-link">Unhappy with your website?</p>
-        <h2 class="hero-text">We create beautiful and fast web services</h2>
-      </article>
-      <div>
-        <img class="hero-image" src="images\heroImage.jpg" alt="hero image" />
-      </div>
-      <article class="max-width-2 margin-auto">
-        <h2 class="hero-text">Story, emotion and purpose</h2>
-        <p class="paragraph">
-          We help transform your ideas into real world applications that will
-          outperform your toughest competition and help you achieve your
-          strategic goals in short period of time.
-        </p>
-        <p class="contact-hero paragraph">Want us to contact you?</p>
-        <input class="e-input" type="email" placeholder="Email" />
-      </article>
-    </main>
+      <!-- top main section -->
+      <main class="max-width margin-auto top-main">
+        <article class="max-width-2 margin-auto">
+          <p class="p-link">Unhappy with your website?</p>
+          <h2 class="hero-text">We create beautiful and fast web services</h2>
+        </article>
+        <div>
+          <img class="hero-image" src="images\heroImage.jpg" alt="hero image" />
+        </div>
+        <article class="max-width-2 margin-auto">
+          <h2 class="hero-text">Story, emotion and purpose</h2>
+          <p class="paragraph">
+            We help transform your ideas into real world applications that will
+            outperform your toughest competition and help you achieve your
+            strategic goals in short period of time.
+          </p>
+          <p class="contact-hero paragraph">Want us to contact you?</p>
+          <input class="e-input" type="email" placeholder="Email" />
+        </article>
+      </main>
+    </header>
 
     <!-- services section -->
     <section class="max-width margin-auto-top">
@@ -131,14 +133,22 @@
       <main class="flex desing-outer-box">
         <aside class="desing-box">
           <figure>
-            <img class="design-img" src="images\smarthome.jpg" alt="smarthome image">
+            <img
+              class="design-img"
+              src="images\smarthome.jpg"
+              alt="smarthome image"
+            />
             <figcaption>
               <p class="paragraph">Full stack application</p>
               <p class="bold-head">Smart home dashboard</p>
             </figcaption>
           </figure>
           <figure>
-            <img class="design-img" src="images\booking.png" alt="booking image">
+            <img
+              class="design-img"
+              src="images\booking.png"
+              alt="booking image"
+            />
             <figcaption>
               <p class="paragraph">UX/UI design</p>
               <p class="bold-head">Onboard application</p>
@@ -147,19 +157,59 @@
         </aside>
         <aside class="desing-box">
           <figure>
-            <img class="design-img" src="images\onboard.png" alt="onboard image">
+            <img
+              class="design-img"
+              src="images\onboard.png"
+              alt="onboard image"
+            />
             <figcaption>
               <p class="paragraph">Mobile application</p>
               <p class="bold-head">Booking system</p>
             </figcaption>
           </figure>
           <figure>
-            <img class="design-img" src="images\juice-product.png" alt="juice-product">
+            <img
+              class="design-img"
+              src="images\juice-product.png"
+              alt="juice-product"
+            />
             <figcaption>
               <p class="paragraph">Front End applicati on</p>
               <p class="bold-head">Juice product homepage</p>
             </figcaption>
           </figure>
+          <p class="p-link SM">see more →</p>
+        </aside>
+      </main>
+    </section>
+
+    <!-- team section -->
+    <section class="max-width margin-auto">
+      <header class="team flex">
+        <main>
+          <p class="p-link">Meet the team</p>
+          <h2 class="hero-text">We are chilled and a laidback team</h2>
+          <p class="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </main>
+        <aside>
+          <img class="profile-img" src="images\person1.png" alt="" />
+          <img class="profile-img" src="images\person2.png" alt="" />
+          <img class="profile-img" src="images\person3.png" alt="" />
+        </aside>
+      </header>
+      <main>
+        <h2 class="bold-paragraph max-width-2">
+          “Fast and outstanding resutls. Edie understands their customer’s
+          needs. They have a young and talented team.”
+        </h2>
+        <aside class="profile-id">
+          <img class="profile-img" src="images\person4.png" alt="">
+          <article>
+            <p class="bold-head">Carlos Tran</p>
+            <p class="paragraph">The Decorate Gatsby</p>
+          </article>
         </aside>
       </main>
     </section>
