@@ -17,9 +17,6 @@ img {
 a {
   text-decoration: none;
 }
-body {
-  padding: 1rem;
-}
 
 :root {
   --link-color: #2d9cdb;
@@ -37,6 +34,9 @@ body {
 }
 .margin-auto-top {
   margin: 8rem auto;
+}
+.bordor-margin + .bordor-margin {
+  margin: 1rem auto;
 }
 .flex {
   display: flex;
@@ -253,7 +253,7 @@ body {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
-  margin-top: 2rem;
+  margin: 2rem 0;
 }
 .profile-id img {
   max-width: 6.25rem;
@@ -263,6 +263,20 @@ body {
 }
 .profile-id .bold-head {
   margin: 0;
+}
+
+/* footer */
+.footer {
+  background-color: black;
+}
+.footer .nav-logo {
+  color: white;
+}
+.logo {
+  max-width: 1.5rem;
+}
+.logo + .logo {
+  margin-left: 1rem;
 }
 
 @media (max-width: 590px) {
@@ -275,5 +289,8 @@ body {
   }
   .p-link.SM {
     place-content: start;
+  }
+  .bordor-margin {
+    margin: 0 1rem !important;
   }
 }
